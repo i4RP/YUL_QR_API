@@ -1,5 +1,6 @@
-const express = require("express");
-const QRCodeStyling = require("qr-code-styling-node");
+// server.js
+import express from "express";
+import QRCodeStyling from "qr-code-styling-node";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
